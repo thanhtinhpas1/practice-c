@@ -1,5 +1,6 @@
-#include "test.h"
 #include "pch.h"
+#include "test.h"
+
 void run_all_tests() {
 	test_size();
 	test_push_front();

@@ -121,7 +121,7 @@ void jforward_list_push_back(JForwardList *jlist, int value) {
 	}
 }
 
-void jfroward_list_pop_back(JForwardList *jlist) {
+void jforward_list_pop_back(JForwardList *jlist) {
 	if (jlist->tail == 0) {
 		printf("Cannot pop back of empty list\n");
 		exit(EXIT_FAILURE);

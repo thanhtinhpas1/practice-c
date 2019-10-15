@@ -1,7 +1,9 @@
 #pragma once
-#include <assert.h>
+
 #ifndef PROJECT_TESTS_H
 #define PROJECT_TESTS_H
+#include "pch.h"
+#include <assert.h>
 
 void run_all_tests();
 void test_size();
